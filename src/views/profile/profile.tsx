@@ -141,7 +141,6 @@ export default function Profile() {
 
   return (
     <div className="profile-container">
-      <h1 className="text-2xl font-semibold">Web Developer Full Stack</h1>
       <div className="profile-body">
         {cardsData.map((card, index) => (
           <ProfileCard key={index} {...card} />

@@ -10,7 +10,10 @@ const App: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="app-container">
       <Sidebar />
-      <div className="main">{children}</div>
+      <div className="app-container-body">
+        <h1 className="app-container-body-header">Web Developer Full Stack</h1>
+        {children}
+      </div>
     </div>
   );
 };
