@@ -1,0 +1,44 @@
+.tech-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  .tech-body {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+  }
+}
+
+.tech-card {
+  &-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    &-tag {
+      background-color: goldenrod;
+      border-radius: 10px;
+      padding: 6px;
+      margin: 5px;
+      font-size: 0.5rem;
+      color: rgba(176, 0, 0, 0.9);
+      font-style: italic;
+      font-weight: 500;
+      height: 20px;
+    }
+  }
+  &-percentage {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    height: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 10px;
+    &-bar {
+      background-color: #ffa500;
+      border-radius: 10px;
+      height: 100%;
+    }
+  }
+}

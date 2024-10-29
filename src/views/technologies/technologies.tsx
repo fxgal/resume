@@ -1,97 +1,92 @@
 import "./technologies.scss";
-import { FaCheck } from "react-icons/fa";
+import {
+  FaAws,
+  FaCheck,
+  FaCss3,
+  FaDatabase,
+  FaDocker,
+  FaGitAlt,
+  FaLinux,
+  FaNode,
+  FaPhp,
+  FaPython,
+  FaReact,
+} from "react-icons/fa";
 
 export default function Technologies() {
   const itemData: TechnologiesProps[] = [
     {
-      icon: <FaCheck />,
+      icon: <FaNode />,
       name: "NestJS/NodeJS/Express",
       percentage: 90,
-      tag: "backend",
     },
     {
-      icon: <FaCheck />,
+      icon: <FaReact />,
       name: "ReactJS",
-      percentage: 90,
-      tag: "backend",
+      percentage: 70,
     },
     {
-      icon: <FaCheck />,
-      name: "TypeScript/TSX",
+      icon: <FaCss3 />,
+      name: "CSS/SCSS",
       percentage: 90,
-      tag: "backend",
+    },
+    {
+      icon: <FaDocker />,
+      name: "Docker/Kubernetes",
+      percentage: 80,
+      tag: "Monitoreo de pods",
+    },
+    {
+      icon: <FaAws />,
+      name: "AWS/SNS/SQS/S3/EC2/CloudFront/Lambda/Fargate",
+      percentage: 80,
+    },
+    {
+      icon: <FaGitAlt />,
+      name: "Git/GitHub/GitLab/Bitbucket",
+      percentage: 90,
+    },
+    {
+      icon: <FaLinux />,
+      name: "GNU/Linux",
+      percentage: 90,
     },
     {
       icon: <FaCheck />,
       name: "JavaScript/ES6",
       percentage: 90,
-      tag: "backend",
     },
     {
-      icon: <FaCheck />,
+      icon: <FaDatabase />,
+      name: "MongoDb/ElasticSearch/NoSQL",
+      percentage: 70,
+    },
+    {
+      icon: <FaDatabase />,
+      name: "MySQL/PostgreSQL",
+      percentage: 90,
+    },
+    {
+      icon: <FaPhp />,
       name: "PHP/CakePHP",
-      percentage: 90,
-      tag: "backend",
+      percentage: 70,
+      tag: "Por Actualizar",
     },
     {
-      icon: <FaCheck />,
-      name: "CSS/SCSS",
-      percentage: 90,
-      tag: "backend",
-    },
-    {
-      icon: <FaCheck />,
-      name: "Java",
-      percentage: 90,
-      tag: "backend",
-    },
-    {
-      icon: <FaCheck />,
-      name: "SQL/NoSQL",
-      percentage: 90,
-      tag: "backend",
-    },
-    {
-      icon: <FaCheck />,
-      name: "MongoDB/MySQL/PostgreSQL",
-      percentage: 90,
-      tag: "backend",
-    },
-    {
-      icon: <FaCheck />,
-      name: "Docker/Kubernetes",
-      percentage: 90,
-      tag: "backend",
-    },
-    {
-      icon: <FaCheck />,
-      name: "AWS",
-      percentage: 90,
-      tag: "backend",
-    },
-    {
-      icon: <FaCheck />,
-      name: "Git/GitHub/GitLab/Bitbucket",
-      percentage: 90,
-      tag: "backend",
-    },
-    {
-      icon: <FaCheck />,
-      name: "GNU/Linux",
-      percentage: 90,
-      tag: "backend",
-    },
-    {
-      icon: <FaCheck />,
+      icon: <FaPython />,
       name: "Python",
+      percentage: 50,
+      tag: "Por Actualizar",
+    },
+    {
+      icon: <FaCheck />,
+      name: "TypeScript/TSX",
       percentage: 90,
-      tag: "backend",
     },
   ];
 
   return (
     <div className="tech-container">
-      <h1 className="text-2xl font-semibold">Web Developer Full Stack</h1>
       <div className="tech-body">
         {itemData.map((item, index) => (
           <TechnologiesCard key={index} {...item} />
@@ -105,16 +100,19 @@ interface TechnologiesProps {
   icon?: React.ReactNode;
   name: string;
   percentage?: number;
-  tag: string;
+  tag?: string;
 }
 
 const TechnologiesCard = (props: TechnologiesProps) => (
   <div className="tech-card">
-    <div className="tech-icon">{props.icon}</div>
-    <div className="tech-name">{props.name}</div>
-    <div className="tech-percentage">
+    <div className="tech-card-content">
+      <div className="tech-card-content-icon">{props.icon}</div>
+      <div className="tech-card-content-name">{props.name}</div>
+      {props.tag && <div className="tech-card-content-tag">{props.tag}</div>}
+    </div>
+    <div className="tech-card-percentage">
       <div
-        className="tech-percentage-fill"
+        className="tech-card-percentage-bar"
         style={{ width: `${props.percentage}%` }}
       />
     </div>
