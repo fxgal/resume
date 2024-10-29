@@ -1,0 +1,18 @@
+.tag-links{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 80%;
+}
+
+.tag-link{
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9em;
+  transition: background-color 0.3s;
+}
