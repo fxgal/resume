@@ -8,7 +8,7 @@ import Profile from "./views/profile/profile";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <App children={<Profile />} />,
   },
   {
     path: "/technologies",

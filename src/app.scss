@@ -1,5 +1,5 @@
 * {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Verdana", Courier, monospace;
 }
 body {
   background-image: url("../src/assets/background-v2.jpg");
@@ -13,14 +13,13 @@ body {
   margin: 20px 100px;
   .sidebar {
     max-width: 400px;
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
     background-color: rgba(176, 0, 0, 0.9);
     padding: 10px;
-    margin-right: 10px;
   }
   .main {
     flex: 1;
-    border-radius: 10px;
+    border-radius: 0px 10px 10px 0px;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
   }
@@ -29,11 +28,15 @@ body {
 @media (max-width: 768px) {
   .app-container {
     flex-direction: column;
-    margin: 20px 20px;
-    gap: 10px;
+    margin: 0;
     .sidebar {
       max-width: 100%;
       margin-right: 0;
+      border-radius: 10px 10px 0 0;
+    }
+    .main {
+      border-radius: 0;
+      margin-left: 0;
     }
   }
 }

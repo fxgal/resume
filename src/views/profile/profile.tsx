@@ -8,7 +8,7 @@ export default function Profile() {
     {
       type: "grid",
       icon: <FaClipboardUser />,
-      name: "Profile",
+      name: "Perfil profesional",
       description:
         "Ingeniero en Informática y desarrollador Full Stack con más de 14 años de experiencia en el desarrollo de soluciones tecnológicas avanzadas para procesamiento automatizado de información, e-commerce y plataformas de alta demanda. Especialista en arquitecturas modernas como microservicios, serverless, event-driven, y composable. Destacado en la implementación de APIs REST, sistemas en tiempo real y aplicaciones escalables. Enfocado en metodologías ágiles, aplicando principios SOLID y patrones de diseño de software para asegurar código robusto y adaptable. Profesional proactivo, orientado a objetivos, colaborativo y adaptable a nuevas tecnologías y lenguajes de programación.",
       note: "Actualmente profundizo en Prompt Engineering e integración con modelos de IA generativa (LLMs)",
