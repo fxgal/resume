@@ -1,0 +1,74 @@
+[
+  {
+    "date": "2024",
+    "title": "Diseño de sistemas a gran escala y arquitectura de software",
+    "focus": "Comprender cómo diseñar y construir sistemas informáticos capaces de manejar grandes volúmenes de datos y usuarios de manera eficiente y escalable.",
+    "content": "Patrones de diseño, escalabilidad, alta disponibilidad, bases de datos distribuidas y arquitecturas de microservicios.",
+    "institution": "Udemy"
+  },
+  {
+    "date": "2024",
+    "title": "Ultimate Docker: Desde cero hasta despliegues",
+    "focus": "Enseña a utilizar Docker para empaquetar aplicaciones y sus dependencias en contenedores aislados y portátiles.",
+    "content": "Conceptos básicos de Docker, creación de imágenes, ejecución de contenedores, gestión de redes y volúmenes, y despliegue de aplicaciones en producción.",
+    "institution": "Udemy"
+  },
+  {
+    "date": "2021",
+    "title": "Terraform: Infraestructura como código",
+    "focus": "Definir y gestionar la infraestructura de aplicaciones utilizando Terraform y un lenguaje de configuración declarativo.",
+    "content": "Escritura de código Terraform para crear, modificar y destruir recursos en proveedores de nube como AWS, Azure, y GCP.",
+    "institution": "Udemy"
+  },
+  {
+    "date": "2018",
+    "title": "React Native",
+    "focus": "Desarrollo de aplicaciones móviles multiplataforma utilizando React Native.",
+    "content": "Componentes, navegación, estado, estilos, APIs nativas, redux, redux-sagas.",
+    "institution": "Udemy"
+  },
+  {
+    "date": "2008",
+    "title": "Programming Fundamentals",
+    "program": "IBM Advance Career Education e-business Application Developer Program",
+    "focus": "Introducción a la programación, proporcionando los fundamentos para desarrollar aplicaciones.",
+    "content": "Algoritmos, estructuras de datos, lenguajes de programación (Java o Python) y conceptos de programación orientada a objetos.",
+    "institution": "IBM Program"
+  },
+  {
+    "date": "2008",
+    "title": "IT and Networking Fundamentals",
+    "program": "IBM Advance Career Education e-business Application Developer Program",
+    "focus": "Base sólida en conceptos fundamentales de tecnología de la información y redes.",
+    "content": "Sistemas operativos, protocolos de red, topologías de red, seguridad de la información y temas relacionados.",
+    "institution": "IBM Program"
+  },
+  {
+    "date": "2008",
+    "title": "Applications Developer",
+    "program": "IBM Advance Career Education e-business Application Developer Program",
+    "focus": "Desarrollo de aplicaciones empresariales.",
+    "content": "Desarrollo web, bases de datos relacionales, frameworks, diseño de interfaces de usuario y mejores prácticas de desarrollo.",
+    "institution": "IBM Program"
+  },
+  {
+    "date": "2007",
+    "title": "Participación en Segundas Tecnoferias, Foro de Herramientas para el Desarrollo e Implementación de Aplicaciones",
+    "institution": "Universidad Rómulo Gallegos"
+  },
+  {
+    "date": "2007",
+    "title": "Jornada de Microsoft Andean Developerdays",
+    "institution": "Microsoft / Caracas - Venezuela"
+  },
+  {
+    "date": "2005",
+    "title": "Jornada de Software Libre Desarrollando con Estándares Abiertos",
+    "institution": "Universidad Rómulo Gallegos"
+  },
+  {
+    "date": "2005",
+    "title": "Primera Jornada de Inducción a GNU/Linux y Festival de Instalación",
+    "institution": "Universidad Rómulo Gallegos"
+  }
+]

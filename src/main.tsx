@@ -8,6 +8,7 @@ import Technologies from "./views/technologies/technologies";
 import Works from "./views/works/works";
 import Projects from "./views/projects/projects";
 import Academy from "./views/academy/academy";
+import Certificates from "./views/certificates/certificates";
 
 const router = createBrowserRouter([
   {
@@ -31,8 +32,8 @@ const router = createBrowserRouter([
     element: <App children={<Academy />} />,
   },
   {
-    path: "/courses",
-    element: <App children={<Profile />} />,
+    path: "/certificates",
+    element: <App children={<Certificates />} />,
   },
 ]);
 

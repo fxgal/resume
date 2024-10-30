@@ -8,7 +8,7 @@ export default function TagLink() {
     { name: "Works", path: "/works" },
     { name: "Projects", path: "/projects" },
     { name: "Academy", path: "/academy" },
-    { name: "Courses", path: "/courses" },
+    { name: "Certificates", path: "/certificates" },
   ];
   return (
     <div className="tag-links flex flex-wrap justify-center">
