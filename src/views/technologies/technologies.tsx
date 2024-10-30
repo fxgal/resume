@@ -1,3 +1,4 @@
+import { FaJava } from "react-icons/fa6";
 import "./technologies.scss";
 import {
   FaAws,
@@ -24,6 +25,11 @@ export default function Technologies() {
       icon: <FaReact />,
       name: "ReactJS",
       percentage: 70,
+    },
+    {
+      icon: <FaCheck />,
+      name: "TypeScript/TSX",
+      percentage: 90,
     },
     {
       icon: <FaCss3 />,
@@ -79,9 +85,10 @@ export default function Technologies() {
       tag: "Por Actualizar",
     },
     {
-      icon: <FaCheck />,
-      name: "TypeScript/TSX",
-      percentage: 90,
+      icon: <FaJava />,
+      name: "Java",
+      percentage: 50,
+      tag: "Por Actualizar",
     },
   ];
 
