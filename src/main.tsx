@@ -5,6 +5,8 @@ import "./index.css";
 import App from "./App";
 import Profile from "./views/profile/profile";
 import Technologies from "./views/technologies/technologies";
+import Works from "./views/works/works";
+import Projects from "./views/projects/projects";
 
 const router = createBrowserRouter([
   {
@@ -17,11 +19,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/works",
-    element: <App children={<Profile />} />,
+    element: <App children={<Works />} />,
   },
   {
-    path: "/portfolio",
-    element: <App children={<Profile />} />,
+    path: "/projects",
+    element: <App children={<Projects />} />,
   },
   {
     path: "/academy",

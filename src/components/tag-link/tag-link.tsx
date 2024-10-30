@@ -6,7 +6,7 @@ export default function TagLink() {
     { name: "Home", path: "/" },
     { name: "Technologies", path: "/technologies" },
     { name: "Works", path: "/works" },
-    { name: "Portfolio", path: "/portfolio" },
+    { name: "Projects", path: "/projects" },
     { name: "Academy", path: "/academy" },
     { name: "Courses", path: "/courses" },
   ];

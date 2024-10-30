@@ -23,13 +23,28 @@ body {
     border-radius: 0px 10px 10px 0px;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
-    &-header{
+    &-header {
       text-align: center;
       font-size: 1.5em;
       font-weight: bold;
       margin: 20px;
     }
   }
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  margin: 2px;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: orange;
 }
 
 @media (max-width: 768px) {
