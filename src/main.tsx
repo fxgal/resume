@@ -7,6 +7,7 @@ import Profile from "./views/profile/profile";
 import Technologies from "./views/technologies/technologies";
 import Works from "./views/works/works";
 import Projects from "./views/projects/projects";
+import Academy from "./views/academy/academy";
 
 const router = createBrowserRouter([
   {
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/academy",
-    element: <App children={<Profile />} />,
+    element: <App children={<Academy />} />,
   },
   {
     path: "/courses",
