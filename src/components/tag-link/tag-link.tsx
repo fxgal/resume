@@ -3,12 +3,12 @@ import "./tag-link.scss";
 
 export default function TagLink() {
   const tagLinks = [
-    { name: "Home", path: "/" },
-    { name: "Technologies", path: "/technologies" },
-    { name: "Works", path: "/works" },
-    { name: "Projects", path: "/projects" },
-    { name: "Academy", path: "/academy" },
-    { name: "Certificates", path: "/certificates" },
+    { name: "Home", path: "/resume/" },
+    { name: "Technologies", path: "/resume/technologies" },
+    { name: "Works", path: "/resume/works" },
+    { name: "Projects", path: "/resume/projects" },
+    { name: "Academy", path: "/resume/academy" },
+    { name: "Certificates", path: "/resume/certificates" },
   ];
   return (
     <div className="tag-links flex flex-wrap justify-center">

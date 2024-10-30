@@ -20,12 +20,12 @@ const App: React.FC<LayoutProps> = () => {
       <div className="app-container-body">
         <h1 className="app-container-body-header">Web Developer Full Stack</h1>
         <Routes>
-          <Route path="/" element={<Profile />} />
-          <Route path="/technologies" element={<Technologies />} />
-          <Route path="/works" element={<Works />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/academy" element={<Academy />} />
-          <Route path="/certificates" element={<Certificates />} />
+          <Route path="/resume/" element={<Profile />} />
+          <Route path="/resume/technologies" element={<Technologies />} />
+          <Route path="/resume/works" element={<Works />} />
+          <Route path="/resume/projects" element={<Projects />} />
+          <Route path="/resume/academy" element={<Academy />} />
+          <Route path="/resume/certificates" element={<Certificates />} />
           <Route path="*" element={<Profile />} />
         </Routes>
       </div>
