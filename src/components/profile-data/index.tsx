@@ -1,4 +1,4 @@
-import { FaRegEnvelope, FaTelegram, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaRegEnvelope, FaTelegram, FaWhatsapp } from "react-icons/fa";
 import profilePhoto from "../../assets/profile.jpg";
 import "./profile-data.scss";
 
@@ -29,6 +29,14 @@ export default function ProfileData() {
         </p>
         <a href="https://wa.me/584125360034" target="_blank">
           Send
+        </a>
+      </div>
+      <div className="text-icon">
+        <p>
+          <FaGithub /> Github
+        </p>
+        <a href="https://github.com/fxgal" target="_blank">
+          Link
         </a>
       </div>
     </div>
