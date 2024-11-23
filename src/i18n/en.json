@@ -1,0 +1,230 @@
+{
+  "home": "Home",
+  "technologies": "Technologies",
+  "works": "Experience",
+  "projects": "Projects",
+  "academy": "Academy",
+  "certificates": "Certificates",
+  "professional-profile": "Professional Profile",
+  "profile-description": "Computer Engineer and Full Stack Developer with over 14 years of experience in developing advanced technological solutions for automated information processing, e-commerce, and high-demand platforms. Specialist in modern architectures such as microservices, serverless, event-driven, and composable. Skilled in implementing REST APIs, real-time systems, and scalable applications. Focused on agile methodologies, applying SOLID principles and software design patterns to ensure robust and adaptable code. Proactive, goal-oriented, collaborative professional adaptable to new technologies and programming languages.",
+  "profile-note": "Currently deepening knowledge in Prompt Engineering and integration with generative AI models (LLMs).",
+  "technical-skills": "Technical Skills",
+  "software-architecture": "Software Architecture",
+  "hexagonal-architecture": "Hexagonal Architecture",
+  "event-driven-systems": "Event-Driven Systems",
+  "object-oriented-programming": "Object-Oriented Programming",
+  "design-patterns": "Design Patterns",
+  "solid-principles": "SOLID Principles",
+  "web-development": "Web Development",
+  "mobile-development": "Mobile Development",
+  "api-development": "API Development",
+  "microservices-development": "Microservices Development",
+  "scalable-applications-development": "Scalable Applications Development",
+  "serverless-applications-development": "Serverless Applications Development",
+  "composable-applications-development": "Composable Applications Development",
+  "cloud-applications-development": "Cloud Applications Development",
+  "mobile-applications-development": "Mobile Applications Development",
+  "soft-skills": "Soft Skills",
+  "teamwork": "Teamwork",
+  "effective-communication": "Effective Communication",
+  "adaptability": "Adaptability",
+  "proactivity": "Proactivity",
+  "problem-solving": "Problem-Solving",
+  "critical-thinking": "Critical Thinking",
+  "leadership": "Leadership",
+  "empathy": "Empathy",
+  "languages": "Languages",
+  "spanish": "Spanish (native)",
+  "english": "English (A2-B1)",
+  "responsibilities": "Responsibilities",
+  "projects-view": [
+    {
+      "position": "Senior Software Developer Full Stack",
+      "description": "Development of the Product Information Manager (PIM), a product information management system for Cencosud platforms (Marketplace, Paris, Easy), with a database of approximately 2 million products and an average traffic of 500,000 requests per hour. Designed under a composable ecosystem to facilitate the integration of external companies and internal applications through REST APIs and/or event-driven systems. The system incorporates consumers, importers, exporters, cron jobs, lambdas, and fargates as part of a scalable and flexible architecture.",
+      "responsibilities": {
+        "r0": "Design and development of new features for the PIM",
+        "r1": "Cloud infrastructure management with AWS, using Terraform for resource provisioning",
+        "r2": "Creation and management of API Gateway and Backend for Frontend (BFF)",
+        "r3": "Operational support for key users: catalogers, commercial teams, and external integrators",
+        "r4": "Development of importers, ETLs, exporters, and cron jobs",
+        "r5": "Design and programming of frontend views and components"
+      },
+      "location": "Chile",
+      "technologies": {
+        "t0": "Backend and DevOps: NestJS, AWS (Lambdas, Fargates, SQS, SNS, S3, Aurora, OpenSearch), Terraform",
+        "t1": "Frontend: ReactJS"
+      }
+    },
+    {
+      "position": "Senior Software Developer Full Stack",
+      "description": "Development of a telemedicine web system for Telepraxen, including appointment management, diagnostics, video conferencing, and internal chat (similar to Microsoft Teams), built on a microservices architecture.",
+      "responsibilities": {
+        "r0": "Design and development of an appointment management system and a chat for communication between doctors, patients, and administrative staff",
+        "r1": "Architecture and development on the frontend (web and mobile)",
+        "r2": "Implementation of continuous deployment and operational support"
+      },
+      "location": "Germany/Argentina",
+      "technologies": {
+        "t0": "MERN Stack (MongoDB, Express, ReactJS, NodeJS)",
+        "t1": "Redis",
+        "t2": "WebSockets",
+        "t3": "Firebase"
+      }
+    },
+    {
+      "position": "Senior Software Developer Full Stack",
+      "description": "Development of a platform for Dual Servicios, a logistics and package transportation company, including a landing page for client registration and a shipment management system synchronized between the administrative system and the client platform.",
+      "responsibilities": {
+        "r0": "Design of the shipment management system and relational database",
+        "r1": "Integration of payments via PayPal",
+        "r2": "Implementation of continuous deployment and operational support"
+      },
+      "location": "Costa Rica",
+      "technologies": {
+        "t0": "CakePHP",
+        "t1": "Bootstrap",
+        "t2": "jQuery",
+        "t3": "MySQL"
+      }
+    },
+    {
+      "position": "Senior Software Developer Full Stack",
+      "description": "Educational system for Ichimoku Fibonacci, an online course platform for trading education, including a landing page, course management, and a student system.",
+      "responsibilities": {
+        "r0": "Design and development of the course management system and database",
+        "r1": "Integration of payments via PayPal",
+        "r2": "Implementation of continuous deployment and operational support"
+      },
+      "location": "Argentina",
+      "technologies": {
+        "t0": "CakePHP",
+        "t1": "Bootstrap",
+        "t2": "jQuery",
+        "t3": "MySQL"
+      }
+    },
+    {
+      "position": "Senior Software Developer Full Stack",
+      "description": "Administrative system for OPE Publicidad, with modules for recording requests and project budget estimates for marketing and printing.",
+      "responsibilities": {
+        "r0": "Design and development of the administrative system and database",
+        "r1": "Implementation of continuous deployment and operational support"
+      },
+      "location": "Costa Rica",
+      "technologies": {
+        "t0": "CakePHP",
+        "t1": "Bootstrap",
+        "t2": "jQuery",
+        "t3": "MySQL"
+      }
+    },
+    {
+      "position": "Software Developer Full Stack",
+      "description": "GestionaEduca system to streamline the hiring process for geographically distant schools.",
+      "responsibilities": [
+        "Design and development of the course administration system and database",
+        "Implementation of continuous deployment and operational support"
+      ],
+      "location": "Chile",
+      "technologies": {
+        "t0": "CakePHP",
+        "t1": "Bootstrap",
+        "t2": "jQuery",
+        "t3": "MySQL"
+      }
+    },
+    {
+      "position": "Software Developer Full Stack",
+      "description": "Administrative system for managing university vendor contracts and payments, tracking every step of the process from contracting to payment.",
+      "responsibilities": {
+        "r0": "Design and development of the administrative system and database",
+        "r1": "Installation on internal server and operational support"
+      },
+      "location": "Venezuela",
+      "technologies": {
+        "t0": "CakePHP",
+        "t1": "Bootstrap",
+        "t2": "jQuery",
+        "t3": "MySQL"
+      }
+    },
+    {
+      "position": "Software Developer Full Stack",
+      "description": "Integrated Labor Information System (SIIL) for managing university worker information, including payroll synchronization and employee access to payslips and official documents with QR code verification.",
+      "responsibilities": {
+        "r0": "Design and development of the administration and data processing system",
+        "r1": "Deployment on servers with internet access and operational support"
+      },
+      "location": "Venezuela",
+      "technologies": {
+        "t0": "CakePHP",
+        "t1": "Bootstrap",
+        "t2": "jQuery",
+        "t3": "MySQL"
+      }
+    }
+  ],
+  "certificates-view": [
+    {
+      "title": "Large-Scale Systems Design and Software Architecture",
+      "focus": "Understanding how to design and build computer systems capable of handling large volumes of data and users efficiently and scalably.",
+      "content": "Design patterns, scalability, high availability, distributed databases, and microservices architectures.",
+      "institution": "Udemy"
+    },
+    {
+      "title": "Ultimate Docker: From Zero to Deployment",
+      "focus": "Teaches how to use Docker to package applications and their dependencies into isolated and portable containers.",
+      "content": "Basic Docker concepts, image creation, container execution, network and volume management, and application deployment in production.",
+      "institution": "Udemy"
+    },
+    {
+      "title": "Terraform: Infrastructure as Code",
+      "focus": "Defining and managing application infrastructure using Terraform and a declarative configuration language.",
+      "content": "Writing Terraform code to create, modify, and destroy resources in cloud providers such as AWS, Azure, and GCP.",
+      "institution": "Udemy"
+    },
+    {
+      "title": "React Native",
+      "focus": "Development of cross-platform mobile applications using React Native.",
+      "content": "Components, navigation, state, styles, native APIs, redux, redux-sagas.",
+      "institution": "Udemy"
+    },
+    {
+      "title": "Programming Fundamentals",
+      "program": "IBM Advance Career Education e-business Application Developer Program",
+      "focus": "Introduction to programming, providing the fundamentals to develop applications.",
+      "content": "Algorithms, data structures, programming languages (Java or Python), and object-oriented programming concepts.",
+      "institution": "IBM Program"
+    },
+    {
+      "title": "IT and Networking Fundamentals",
+      "program": "IBM Advance Career Education e-business Application Developer Program",
+      "focus": "Solid foundation in fundamental concepts of information technology and networking.",
+      "content": "Operating systems, network protocols, network topologies, information security, and related topics.",
+      "institution": "IBM Program"
+    },
+    {
+      "title": "Applications Developer",
+      "program": "IBM Advance Career Education e-business Application Developer Program",
+      "focus": "Enterprise application development.",
+      "content": "Web development, relational databases, frameworks, user interface design, and development best practices.",
+      "institution": "IBM Program"
+    },
+    {
+      "title": "Participation in Second Techno-Fairs, Forum on Tools for the Development and Implementation of Applications",
+      "institution": "Rómulo Gallegos University"
+    },
+    {
+      "title": "Microsoft Andean Developerdays Event",
+      "institution": "Microsoft / Caracas - Venezuela"
+    },
+    {
+      "title": "Free Software Day: Developing with Open Standards",
+      "institution": "Rómulo Gallegos University"
+    },
+    {
+      "title": "First GNU/Linux Induction Day and Installation Festival",
+      "institution": "Rómulo Gallegos University"
+    }
+  ]
+}

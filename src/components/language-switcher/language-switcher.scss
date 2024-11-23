@@ -1,0 +1,29 @@
+.language-switcher{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 10px;
+    &__button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightgray;
+        color: darkgray;
+        padding: 5px 10px;
+        border: none;
+        gap: 5px;
+        &:first-child{
+            border-radius: 5px 0 0 5px;
+        }
+        &:last-child{
+            border-radius: 0 5px 5px 0;
+        }
+        &:disabled{
+            background-color: white;
+            color: rgba(176, 0, 0, 0.9);
+        }
+    }
+
+}

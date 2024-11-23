@@ -1,0 +1,230 @@
+{
+  "home": "Inicio",
+  "technologies": "Tecnologías",
+  "works": "Experiencia",
+  "projects": "Proyectos",
+  "academy": "Academia",
+  "certificates": "Certificados",
+  "professional-profile": "Perfil profesional",
+  "profile-description": "Ingeniero en Informática y desarrollador Full Stack con más de 14 años de experiencia en el desarrollo de soluciones tecnológicas avanzadas para procesamiento automatizado de información, e-commerce y plataformas de alta demanda. Especialista en arquitecturas modernas como microservicios, serverless, event-driven, y composable. Destacado en la implementación de APIs REST, sistemas en tiempo real y aplicaciones escalables. Enfocado en metodologías ágiles, aplicando principios SOLID y patrones de diseño de software para asegurar código robusto y adaptable. Profesional proactivo, orientado a objetivos, colaborativo y adaptable a nuevas tecnologías y lenguajes de programación.",
+  "profile-note": "Actualmente profundizo en Prompt Engineering e integración con modelos de IA generativa (LLMs)",
+  "technical-skills": "Habilidades técnicas",
+  "software-architecture": "Arquitectura de software",
+  "hexagonal-architecture": "Arquitectura de hexagonal",
+  "event-driven-systems": "Sistemas event-driven",
+  "object-oriented-programming": "Programación orientada a objetos",
+  "design-patterns": "Patrones de diseño",
+  "solid-principles": "Principios SOLID",
+  "web-development": "Desarrollo web",
+  "mobile-development": "Desarrollo móvil",
+  "api-development": "Desarrollo de APIs",
+  "microservices-development": "Desarrollo de microservicios",
+  "scalable-applications-development": "Desarrollo de aplicaciones escalables",
+  "serverless-applications-development": "Desarrollo de aplicaciones serverless",
+  "composable-applications-development": "Desarrollo de aplicaciones composable",
+  "cloud-applications-development": "Desarrollo de aplicaciones en la nube",
+  "mobile-applications-development": "Desarrollo de aplicaciones móviles",
+  "soft-skills": "Habilidades blandas",
+  "teamwork": "Trabajo en equipo",
+  "effective-communication": "Comunicación efectiva",
+  "adaptability": "Adaptabilidad",
+  "proactivity": "Proactividad",
+  "problem-solving": "Resolución de problemas",
+  "critical-thinking": "Pensamiento crítico",
+  "leadership": "Liderazgo",
+  "empathy": "Empatía",
+  "languages": "Idiomas",
+  "spanish": "Español (nativo)",
+  "english": "Inglés (A2-B1)",
+  "responsibilities": "Responsabilidades",
+  "projects-view": [
+    {
+      "position": "Senior Software Developer Full Stack",
+      "description": "Desarrollo del Product Information Manager (PIM), un sistema de gestión de información de productos para plataformas de Cencosud (Marketplace, Paris, Easy), con una base de datos de aproximadamente 2 millones de productos y un tráfico promedio de 500,000 solicitudes por hora. Diseñado bajo un ecosistema composable para facilitar la integración de empresas externas y aplicaciones internas mediante APIs REST y/o event-driven. El sistema incorpora consumidores, importadores, exportadores, cronjobs, lambdas y fargates como elementos integrados en una arquitectura escalable y flexible.",
+      "responsibilities": {
+        "r0": "Diseño y desarrollo de nuevas funcionalidades para el PIM",
+        "r1": "Gestión de infraestructura en la nube con AWS, utilizando Terraform para el aprovisionamiento de recursos",
+        "r2": "Creación y administración de API Gateway y Backend for Frontend (BFF)",
+        "r3": "Soporte operativo para usuarios clave: catalogadores, equipos comerciales e integradores externos",
+        "r4": "Desarrollo de importadores, ETLs, exportadores y cronjobs",
+        "r5": "Diseño y programación de vistas y componentes en el frontend"
+      },
+      "location": "Chile",
+      "technologies": {
+        "t0": "Backend y DevOps: NestJS, AWS (Lambdas, Fargates, SQS, SNS, S3, Aurora, OpenSearch), Terraform",
+        "t1": "Frontend: ReactJS"
+      }
+    },
+    {
+      "position": "Senior Software Developer Full Stack",
+      "description": "Desarrollo de sistema web de telemedicina para Telepraxen, con funcionalidades de gestión de citas, diagnósticos, videoconferencias y chat interno (similar a Microsoft Teams), construido sobre una arquitectura de microservicios.",
+      "responsibilities": {
+        "r0": "Diseño y desarrollo de un sistema de gestión de citas y un chat para la comunicación entre médicos, pacientes y personal administrativo",
+        "r1": "Arquitectura y desarrollo en frontend (web y móvil)",
+        "r2": "Implementación de despliegue continuo y soporte operativo"
+      },
+      "location": "Alemania/Argentina",
+      "technologies": {
+        "t0": "Stack MERN (MongoDB, Express, ReactJS, NodeJS)",
+        "t1": "Redis",
+        "t2": "WebSockets",
+        "t3": "Firebase"
+      }
+    },
+    {
+      "position": "Senior Software Developer Full Stack",
+      "description": "Desarrollo de plataforma para Dual Servicios de logística y transporte de paquetería, que incluye landing page para registro de clientes y sistema de gestión de envíos, sincronizado entre el sistema administrativo y la plataforma de clientes.",
+      "responsibilities": {
+        "r0": "Diseño del sistema de gestión de envíos y base de datos relacional",
+        "r1": "Integración de pagos mediante PayPal",
+        "r2": "Implementación de despliegue continuo y soporte operativo"
+      },
+      "location": "Costa Rica",
+      "technologies": {
+        "t0": "CakePHP",
+        "t1": "Bootstrap",
+        "t2": "jQuery",
+        "t3": "MySQL"
+      }
+    },
+    {
+      "position": "Senior Software Developer Full Stack",
+      "description": "Sistema educativo para Ichimoku Fibonacci, plataforma de cursos online para formación en trading, incluyendo landing page, gestión de cursos y sistema de estudiantes.",
+      "responsibilities": {
+        "r0": "Diseño y desarrollo del sistema de administración de cursos y base de datos",
+        "r1": "Integración de pagos mediante PayPal",
+        "r2": "Implementación de despliegue continuo y soporte operativo"
+      },
+      "location": "Argentina",
+      "technologies": {
+        "t0": "CakePHP",
+        "t1": "Bootstrap",
+        "t2": "jQuery",
+        "t3": "MySQL"
+      }
+    },
+    {
+      "position": "Senior Software Developer Full Stack",
+      "description": "Sistema administrativo para OPE Publicidad, con módulos para registro de solicitudes y presupuestos de proyectos de marketing e impresión.",
+      "responsibilities": {
+        "r0": "Diseño y desarrollo del sistema administrativo y base de datos",
+        "r1": "Implementación de despliegue continuo y soporte operativo"
+      },
+      "location": "Costa Rica",
+      "technologies": {
+        "t0": "CakePHP",
+        "t1": "Bootstrap",
+        "t2": "jQuery",
+        "t3": "MySQL"
+      }
+    },
+    {
+      "position": "Software Developer Full Stack",
+      "description": "Sistema GestionaEduca para agilizar el proceso de contratación de personal en colegios alejados geográficamente.",
+      "responsibilities": [
+        "Diseño y desarrollo del sistema de administración de cursos y base de datos",
+        "Implementación de despliegue continuo y soporte operativo"
+      ],
+      "location": "Chile",
+      "technologies": {
+        "t0": "CakePHP",
+        "t1": "Bootstrap",
+        "t2": "jQuery",
+        "t3": "MySQL"
+      }
+    },
+    {
+      "position": "Software Developer Full Stack",
+      "description": "Sistema administrativo para la gestión de contrataciones y pagos a proveedores de la universidad, usado para dar seguimiento a cada paso de la contratación hasta el pago de la universidad al proveedor.",
+      "responsibilities": {
+        "r0": "Diseño y desarrollo del sistema administrativo y base de datos",
+        "r1": "Instalación en servidor interno y soporte operativo"
+      },
+      "location": "Venezuela",
+      "technologies": {
+        "t0": "CakePHP",
+        "t1": "Bootstrap",
+        "t2": "jQuery",
+        "t3": "MySQL"
+      }
+    },
+    {
+      "position": "Software Developer Full Stack",
+      "description": "Sistema Integral de Información Laboral (SIIL) para la gestión de información de los trabajadores de la universidad, incluyendo sincronización de pagos de nómina y acceso de los empleados a sus recibos y documentos oficiales con verificación por código QR.",
+      "responsibilities": {
+        "r0": "Diseño y desarrollo del sistema de administración y procesamiento de datos",
+        "r1": "Despliegue en servidores con acceso a internet y soporte operativo"
+      },
+      "location": "Venezuela",
+      "technologies": {
+        "t0": "CakePHP",
+        "t1": "Bootstrap",
+        "t2": "jQuery",
+        "t3": "MySQL"
+      }
+    }
+  ],
+  "certificates-view": [
+    {
+      "title": "Diseño de sistemas a gran escala y arquitectura de software",
+      "focus": "Comprender cómo diseñar y construir sistemas informáticos capaces de manejar grandes volúmenes de datos y usuarios de manera eficiente y escalable.",
+      "content": "Patrones de diseño, escalabilidad, alta disponibilidad, bases de datos distribuidas y arquitecturas de microservicios.",
+      "institution": "Udemy"
+    },
+    {
+      "title": "Ultimate Docker: Desde cero hasta despliegues",
+      "focus": "Enseña a utilizar Docker para empaquetar aplicaciones y sus dependencias en contenedores aislados y portátiles.",
+      "content": "Conceptos básicos de Docker, creación de imágenes, ejecución de contenedores, gestión de redes y volúmenes, y despliegue de aplicaciones en producción.",
+      "institution": "Udemy"
+    },
+    {
+      "title": "Terraform: Infraestructura como código",
+      "focus": "Definir y gestionar la infraestructura de aplicaciones utilizando Terraform y un lenguaje de configuración declarativo.",
+      "content": "Escritura de código Terraform para crear, modificar y destruir recursos en proveedores de nube como AWS, Azure, y GCP.",
+      "institution": "Udemy"
+    },
+    {
+      "title": "React Native",
+      "focus": "Desarrollo de aplicaciones móviles multiplataforma utilizando React Native.",
+      "content": "Componentes, navegación, estado, estilos, APIs nativas, redux, redux-sagas.",
+      "institution": "Udemy"
+    },
+    {
+      "title": "Programming Fundamentals",
+      "program": "IBM Advance Career Education e-business Application Developer Program",
+      "focus": "Introducción a la programación, proporcionando los fundamentos para desarrollar aplicaciones.",
+      "content": "Algoritmos, estructuras de datos, lenguajes de programación (Java o Python) y conceptos de programación orientada a objetos.",
+      "institution": "IBM Program"
+    },
+    {
+      "title": "IT and Networking Fundamentals",
+      "program": "IBM Advance Career Education e-business Application Developer Program",
+      "focus": "Base sólida en conceptos fundamentales de tecnología de la información y redes.",
+      "content": "Sistemas operativos, protocolos de red, topologías de red, seguridad de la información y temas relacionados.",
+      "institution": "IBM Program"
+    },
+    {
+      "title": "Applications Developer",
+      "program": "IBM Advance Career Education e-business Application Developer Program",
+      "focus": "Desarrollo de aplicaciones empresariales.",
+      "content": "Desarrollo web, bases de datos relacionales, frameworks, diseño de interfaces de usuario y mejores prácticas de desarrollo.",
+      "institution": "IBM Program"
+    },
+    {
+      "title": "Participación en Segundas Tecnoferias, Foro de Herramientas para el Desarrollo e Implementación de Aplicaciones",
+      "institution": "Universidad Rómulo Gallegos"
+    },
+    {
+      "title": "Jornada de Microsoft Andean Developerdays",
+      "institution": "Microsoft / Caracas - Venezuela"
+    },
+    {
+      "title": "Jornada de Software Libre Desarrollando con Estándares Abiertos",
+      "institution": "Universidad Rómulo Gallegos"
+    },
+    {
+      "title": "Primera Jornada de Inducción a GNU/Linux y Festival de Instalación",
+      "institution": "Universidad Rómulo Gallegos"
+    }
+  ]
+}

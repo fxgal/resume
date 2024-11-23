@@ -5,17 +5,17 @@
     "description": "Desarrollo del Product Information Manager (PIM), un sistema de gestión de información de productos para plataformas de Cencosud (Marketplace, Paris, Easy), con una base de datos de aproximadamente 2 millones de productos y un tráfico promedio de 500,000 solicitudes por hora. Diseñado bajo un ecosistema composable para facilitar la integración de empresas externas y aplicaciones internas mediante APIs REST y/o event-driven. El sistema incorpora consumidores, importadores, exportadores, cronjobs, lambdas y fargates como elementos integrados en una arquitectura escalable y flexible.",
     "company": "AcidLabs. Cliente: Cencosud",
     "responsibilities": [
-      "Diseño y desarrollo de nuevas funcionalidades para el PIM",
-      "Gestión de infraestructura en la nube con AWS, utilizando Terraform para el aprovisionamiento de recursos",
-      "Creación y administración de API Gateway y Backend for Frontend (BFF)",
-      "Soporte operativo para usuarios clave: catalogadores, equipos comerciales e integradores externos",
-      "Desarrollo de importadores, ETLs, exportadores y cronjobs",
-      "Diseño y programación de vistas y componentes en el frontend"
+      "r0",
+      "r1",
+      "r2",
+      "r3",
+      "r4",
+      "r5"
     ],
     "location": "Chile",
     "technologies": [
-      "Backend y DevOps: NestJS, AWS (Lambdas, Fargates, SQS, SNS, S3, Aurora, OpenSearch), Terraform",
-      "Frontend: ReactJS"
+      "t0",
+      "t1"
     ]
   },
   {
@@ -24,16 +24,16 @@
     "description": "Desarrollo de sistema web de telemedicina para Telepraxen, con funcionalidades de gestión de citas, diagnósticos, videoconferencias y chat interno (similar a Microsoft Teams), construido sobre una arquitectura de microservicios.",
     "company": "Telepraxen",
     "responsibilities": [
-      "Diseño y desarrollo de un sistema de gestión de citas y un chat para la comunicación entre médicos, pacientes y personal administrativo",
-      "Arquitectura y desarrollo en frontend (web y móvil)",
-      "Implementación de despliegue continuo y soporte operativo"
+      "r0",
+      "r1",
+      "r2"
     ],
     "location": "Alemania/Argentina",
     "technologies": [
-      "Stack MERN (MongoDB, Express, ReactJS, NodeJS)",
-      "Redis",
-      "WebSockets",
-      "Firebase"
+      "t0",
+      "t1",
+      "t2",
+      "t3"
     ]
   },
   {
@@ -42,12 +42,17 @@
     "description": "Desarrollo de plataforma para Dual Servicios de logística y transporte de paquetería, que incluye landing page para registro de clientes y sistema de gestión de envíos, sincronizado entre el sistema administrativo y la plataforma de clientes.",
     "company": "Made DEV",
     "responsibilities": [
-      "Diseño del sistema de gestión de envíos y base de datos relacional",
-      "Integración de pagos mediante PayPal",
-      "Implementación de despliegue continuo y soporte operativo"
+      "r0",
+      "r1",
+      "r2"
     ],
     "location": "Costa Rica",
-    "technologies": ["CakePHP", "Bootstrap", "jQuery", "MySQL"]
+    "technologies": [
+      "t0",
+      "t1",
+      "t2",
+      "t3"
+    ]
   },
   {
     "date": "2018",
@@ -55,12 +60,17 @@
     "description": "Sistema educativo para Ichimoku Fibonacci, plataforma de cursos online para formación en trading, incluyendo landing page, gestión de cursos y sistema de estudiantes.",
     "company": "Init 10 Development",
     "responsibilities": [
-      "Diseño y desarrollo del sistema de administración de cursos y base de datos",
-      "Integración de pagos mediante PayPal",
-      "Implementación de despliegue continuo y soporte operativo"
+      "r0",
+      "r1",
+      "r2"
     ],
     "location": "Argentina",
-    "technologies": ["CakePHP", "Bootstrap", "jQuery", "MySQL"]
+    "technologies": [
+      "t0",
+      "t1",
+      "t2",
+      "t3"
+    ]
   },
   {
     "date": "Oct 2018 – Ago 2019",
@@ -68,11 +78,16 @@
     "description": "Sistema administrativo para OPE Publicidad, con módulos para registro de solicitudes y presupuestos de proyectos de marketing e impresión.",
     "company": "Made DEV",
     "responsibilities": [
-      "Diseño y desarrollo del sistema administrativo y base de datos",
-      "Implementación de despliegue continuo y soporte operativo"
+      "r0",
+      "r1"
     ],
     "location": "Costa Rica",
-    "technologies": ["CakePHP", "Bootstrap", "jQuery", "MySQL"]
+    "technologies": [
+      "t0",
+      "t1",
+      "t2",
+      "t3"
+    ]
   },
   {
     "date": "2017 – 2018",
@@ -80,11 +95,16 @@
     "description": "Sistema GestionaEduca para agilizar el proceso de contratación de personal en colegios alejados geográficamente.",
     "company": "ChileDev",
     "responsibilities": [
-      "Diseño y desarrollo del sistema de administración de cursos y base de datos",
-      "Implementación de despliegue continuo y soporte operativo"
+      "r0",
+      "r1"
     ],
     "location": "Chile",
-    "technologies": ["CakePHP", "Bootstrap", "jQuery", "MySQL"]
+    "technologies": [
+      "t0",
+      "t1",
+      "t2",
+      "t3"
+    ]
   },
   {
     "date": "2016",
@@ -92,11 +112,16 @@
     "description": "Sistema administrativo para la gestión de contrataciones y pagos a proveedores de la universidad, usado para dar seguimiento a cada paso de la contratación hasta el pago de la universidad al proveedor.",
     "company": "Universidad Rómulo Gallegos",
     "responsibilities": [
-      "Diseño y desarrollo del sistema administrativo y base de datos",
-      "Instalación en servidor interno y soporte operativo"
+      "r0",
+      "r1"
     ],
     "location": "Venezuela",
-    "technologies": ["CakePHP", "Bootstrap", "jQuery", "MySQL"]
+    "technologies": [
+      "t0",
+      "t1",
+      "t2",
+      "t3"
+    ]
   },
   {
     "date": "2013",
@@ -104,10 +129,15 @@
     "description": "Sistema Integral de Información Laboral (SIIL) para la gestión de información de los trabajadores de la universidad, incluyendo sincronización de pagos de nómina y acceso de los empleados a sus recibos y documentos oficiales con verificación por código QR.",
     "company": "Universidad Rómulo Gallegos",
     "responsibilities": [
-      "Diseño y desarrollo del sistema de administración y procesamiento de datos",
-      "Despliegue en servidores con acceso a internet y soporte operativo"
+      "r0",
+      "r1"
     ],
     "location": "Venezuela",
-    "technologies": ["CakePHP", "Bootstrap", "jQuery", "MySQL"]
+    "technologies": [
+      "t0",
+      "t1",
+      "t2",
+      "t3"
+    ]
   }
 ]

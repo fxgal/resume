@@ -1,139 +1,141 @@
 import { FaClipboardUser } from "react-icons/fa6";
 import { ProfileCard, ProfileCardProps } from "../../components/profile-card";
-import "./profile.scss";
+import { useTranslation } from "react-i18next";
 import { FaCheck, FaCode, FaHandshake, FaLanguage } from "react-icons/fa";
+import "./profile.scss";
 
 export default function Profile() {
+  const { t } = useTranslation();
   const cardsData: ProfileCardProps[] = [
     {
       type: "grid",
       icon: <FaClipboardUser />,
-      name: "Perfil profesional",
+      name: t("professional-profile"),
       description:
-        "Ingeniero en Informática y desarrollador Full Stack con más de 14 años de experiencia en el desarrollo de soluciones tecnológicas avanzadas para procesamiento automatizado de información, e-commerce y plataformas de alta demanda. Especialista en arquitecturas modernas como microservicios, serverless, event-driven, y composable. Destacado en la implementación de APIs REST, sistemas en tiempo real y aplicaciones escalables. Enfocado en metodologías ágiles, aplicando principios SOLID y patrones de diseño de software para asegurar código robusto y adaptable. Profesional proactivo, orientado a objetivos, colaborativo y adaptable a nuevas tecnologías y lenguajes de programación.",
-      note: "Actualmente profundizo en Prompt Engineering e integración con modelos de IA generativa (LLMs)",
+        t("profile-description"),
+      note: t("profile-note"),
     },
     {
       type: "list",
       icon: <FaCode />,
-      name: "Habilidades técnicas",
+      name: t("technical-skills"),
       description: "",
       items: [
         {
           icon: <FaCheck />,
-          name: "Arquitectura de software",
+          name: t("software-architecture"),
         },
         {
           icon: <FaCheck />,
-          name: "Arquitectura de hexagonal",
+          name: t("hexagonal-architecture"),
         },
         {
           icon: <FaCheck />,
-          name: "Sistemas event-driven",
+          name: t("event-driven-systems"),
         },
         {
           icon: <FaCheck />,
-          name: "Programación orientada a objetos",
+          name: t("object-oriented-programming"),
         },
         {
           icon: <FaCheck />,
-          name: "Patrones de diseño",
+          name: t("design-patterns"),
         },
         {
           icon: <FaCheck />,
-          name: "Principios SOLID",
+          name: t("solid-principles"),
         },
         {
           icon: <FaCheck />,
-          name: "Desarrollo web",
+          name: t("web-development"),
         },
         {
           icon: <FaCheck />,
-          name: "Desarrollo móvil",
+          name: t("mobile-development"),
         },
         {
           icon: <FaCheck />,
-          name: "Desarrollo de APIs",
+          name: t("api-development"),
         },
         {
           icon: <FaCheck />,
-          name: "Desarrollo de microservicios",
+          name: t("microservices-development"),
         },
         {
           icon: <FaCheck />,
-          name: "Desarrollo de aplicaciones escalables",
+          name: t("scalable-applications-development"),
         },
         {
           icon: <FaCheck />,
-          name: "Desarrollo de aplicaciones serverless",
+          name: t("serverless-applications-development"),
         },
         {
           icon: <FaCheck />,
-          name: "Desarrollo de aplicaciones composable",
+          name: t("composable-applications-development"),
         },
         {
           icon: <FaCheck />,
-          name: "Desarrollo de aplicaciones en la nube",
+          name: t("cloud-applications-development"),
         },
         {
           icon: <FaCheck />,
-          name: "Desarrollo de aplicaciones móviles",
+          name: t("mobile-applications-development"),
         },
       ],
     },
     {
       type: "list",
       icon: <FaHandshake />,
-      name: "Habilidades blandas",
+      name: t("soft-skills"),
       description: "",
       items: [
         {
           icon: <FaCheck />,
-          name: "Trabajo en equipo",
+          name: t("teamwork"),
         },
         {
           icon: <FaCheck />,
-          name: "Comunicación efectiva",
+          name: t("effective-communication"),
         },
         {
           icon: <FaCheck />,
-          name: "Adaptabilidad",
+          name: t("adaptability"),
         },
         {
           icon: <FaCheck />,
-          name: "Proactividad",
+          name: t("proactivity"),
         },
         {
           icon: <FaCheck />,
-          name: "Resolución de problemas",
+          name: t("problem-solving"),
         },
         {
           icon: <FaCheck />,
-          name: "Pensamiento crítico",
+          name: t("critical-thinking"),
         },
         {
           icon: <FaCheck />,
-          name: "Liderazgo",
+          name: t("leadership"),
         },
         {
           icon: <FaCheck />,
-          name: "Empatía",
+          name: t("empathy"),
         },
       ],
     },
     {
       type: "list",
       icon: <FaLanguage />,
-      name: "Idiomas",
+      name: t("languages"),
       description: "",
       items: [
         {
           icon: <FaCheck />,
-          name: "Español (nativo)",
+          name: t("spanish"),
         },
         {
           icon: <FaCheck />,
-          name: "Inglés (A2-B1)",
+          name: t("english"),
         },
       ],
     },
